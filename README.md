@@ -102,15 +102,12 @@ Each customer `README.md` contains the following sections:
 
 ---
 
-## Hardcoded Secrets — Pending Migration to 1Password
+## Hardcoded Secrets — Migration Status
 
-The following plaintext credentials exist in this repo and need to be moved to 1Password:
-
-| Customer | Type | Location |
-|---|---|---|
-| Reagan | TeamViewer password | `reagan/README.md` — Steps to access |
-| Reagan | TeamViewer connection ID | `reagan/README.md` — Steps to access |
-| Reagan | Windows laptop password | `reagan/README.md` — Steps to access |
-| CloudHQ | SSH hosts / IPs | `cloudhq/README.md` — Steps to access Kubernetes |
-| MCP | SSH host + port | `mcp/README.md` — Steps to access Kubernetes |
-| Campbell | Master node internal IP | `campbell/README.md` — Steps to access Kubernetes |
+| Customer | Type | Status | 1Password Item |
+|---|---|:---:|---|
+| Reagan | TeamViewer connection ID + password | ✅ Migrated | [Reagan TeamViewer Access](https://shakudo.1password.com/app#/vaults/o6jsizs4a3utxuy7sr2ce6odq4/items/t4wokj7y23p2bla5xks4kpzxki) |
+| Reagan | Windows laptop password | ✅ Migrated | [Reagan Windows Laptop](https://shakudo.1password.com/app#/vaults/o6jsizs4a3utxuy7sr2ce6odq4/items/q2tmlxmsgyiibgxptwprqp5rku) |
+| Campbell | Master node internal IP | ✅ Migrated | [Campbell Master Node](https://shakudo.1password.com/app#/vaults/sj5sdxgz7gepoxuaa33zpxobam/items/id4r32oki6fznbdruciwvvixve) |
+| CloudHQ | SSH hosts / IPs (4 nodes) | ⚠️ No vault — pending | — |
+| MCP | SSH host + port | ⚠️ No vault — pending | — |
