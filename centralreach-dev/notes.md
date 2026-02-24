@@ -1,0 +1,3 @@
+# Notes
+
+Argo cd

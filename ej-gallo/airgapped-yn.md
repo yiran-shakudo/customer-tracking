@@ -1,0 +1,3 @@
+# Airgapped (Y/N)
+
+no

@@ -1,0 +1,3 @@
+# Applications
+
+PostgreSQL (Supabase)
