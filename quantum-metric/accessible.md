@@ -1,3 +1,0 @@
-# Accessible?
-
-yes

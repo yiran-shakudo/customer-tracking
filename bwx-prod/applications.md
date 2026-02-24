@@ -1,3 +1,0 @@
-# Applications
-
-Alert Manager

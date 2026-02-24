@@ -1,3 +1,0 @@
-# Applications
-
-Dec 17

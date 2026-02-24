@@ -1,3 +1,0 @@
-# Shakudo Version
-
-AWS

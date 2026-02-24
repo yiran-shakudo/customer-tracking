@@ -1,3 +1,0 @@
-# GPU config (VRAM?)
-
-Streamlit

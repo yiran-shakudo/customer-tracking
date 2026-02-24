@@ -1,3 +1,0 @@
-# Notes
-
-New customer

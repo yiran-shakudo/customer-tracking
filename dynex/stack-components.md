@@ -1,3 +1,0 @@
-# Stack Components
-
-open-webui
