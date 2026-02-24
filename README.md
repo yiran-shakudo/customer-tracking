@@ -14,7 +14,8 @@ customer-tracking/
 ├── README.md              ← this file
 ├── customers.csv          ← raw data export from Google Sheets
 └── <customer-slug>/
-    └── README.md          ← all columns for that customer
+    ├── README.md          ← all columns for that customer
+    └── OnePassVault.md    ← mapped 1Password vaults (empty if none)
 ```
 
 Each customer `README.md` contains the following sections:
@@ -43,46 +44,61 @@ Each customer `README.md` contains the following sections:
 
 ## Customers
 
-| Customer | Environment URL | Accessible | Infrastructure |
-|---|---|:---:|---|
-| [Annexus](annexus/README.md) | https://ai.annexus.cc | ✅ | AKS |
-| [Aristeia](aristeia/README.md) | http://shakudo.aristeiacapital.com | ❌ | AWS |
-| [Avenue Capital](avenue-capital/README.md) | avenue-ai.avenue.corp *(churned)* | — | On-Prem VM |
-| [BWX prod](bwx-prod/README.md) | https://shakudo.bwxt.net | ❌ | On-Prem VM |
-| [Campbell](campbell/README.md) | https://shakudo-1.campbell.com | ✅ | On-Prem VM |
-| [CentralReach Dev](centralreach-dev/README.md) | https://shakudo-dev-centralreach.hyperplane.dev | ✅ | AWS |
-| [CentralReach Prod](centralreach-prod/README.md) | *(Todd manages — screenshare only)* | ❌ | AWS |
-| [CloudHQ](cloudhq/README.md) | https://shakudo1.cloudhq.com | ✅ | On-Prem |
-| [Dynex](dynex/README.md) | https://dynexcapital.canopyhub.io | ❌ | Azure VMs |
-| [EJ Gallo](ej-gallo/README.md) | shakudodev.ejgallo.com | ❌ | — |
-| [Ellis Don](ellis-don/README.md) | *(no active environment — deal not closed)* | — | — |
-| [En-powered](en-powered/README.md) | https://enpowered.hyperplane.dev | ✅ | Oracle Cloud |
-| [Flexivan](flexivan/README.md) | https://flexivan.hyperplane.dev | ✅ | AWS |
-| [Hitachi Demo](hitachi-demo/README.md) | hitachi.canopyhub.io | ✅ | Latitude |
-| [Hitachi Prod](hitachi-prod/README.md) | *(customer-managed)* | ❌ | AWS |
-| [Huntington Cyber non-Prod](huntington-cyber-non-prod-cluster/README.md) | https://artifactscanning.dev.hban.us | ✅ | AWS EKS |
-| [Huntington Cyber Prod](huntington-cyber-prod-cluster/README.md) | https://artifactscanning.hban.us | ✅ | AWS EKS |
-| [Huntington MLOps non-Prod](huntington-mlops-non-prod-cluster/README.md) | https://sigma.dev.hban.us | ✅ | AWS EKS |
-| [Huntington MLOps Prod](huntington-mlops-prod-cluster/README.md) | https://sigma.prod.hban.us | ✅ | AWS EKS |
-| [ICI](ici/README.md) | *(onboarding in progress)* | — | — |
-| [JT Magen](jt-magen/README.md) | *(onboarding in progress)* | — | — |
-| [Kev Group](kev-group/README.md) | https://kevgroup.hyperplane.dev | ✅ | Oracle Cloud |
-| [Loblaw dev](loblaw-dev/README.md) | https://shakudo-lower.lblw.cloud | ❌ | GCP |
-| [Loblaw prod](loblaw-prod/README.md) | https://shakudo.lblw.cloud | ❌ | GCP |
-| [Martinrea](martinrea/README.md) | shakudo-management.martinrea.com | ✅ | On-Prem Bare Metal |
-| [MCP](mcp/README.md) | https://mcp.hyperplane.dev | ✅ | Latitude (Shakudo) |
-| [Osler, Hoskin and Harcourt LLP](osler/README.md) | *(scoping only — no environment yet)* | — | — |
-| [PiinPoint](piinpoint/README.md) | https://piinpoint.hyperplane.dev | ✅ | Azure |
-| [QuadReal dev1](quadreal-dev1/README.md) | http://shakudoqrdev1.internal.quadreal.com | ✅ | Azure |
-| [QuadReal prod](quadreal-prod/README.md) | https://shakudoqrprd.internal.quadreal.com | ✅ | Azure |
-| [QuadReal QA *(deprecated)*](quadreal-qa-deprecated/README.md) | http://shakudoqrqa.internal.quadreal.com | ✅ | Azure |
-| [Quantum Metric](quantum-metric/README.md) | https://qm-datascience.hyperplane.dev | ✅ | GCP |
-| [Reagan](reagan/README.md) | https://reagan.hyperplane.dev | ✅ | VM |
-| [RiskThinking dev](riskthinking-dev/README.md) | https://riskthinking-dev.hyperplane.dev | ✅ | GCP |
-| [RiskThinking prod](riskthinking-prod/README.md) | https://riskthinking-prod.hyperplane.dev | ✅ | GCP |
-| [Ritual](ritual/README.md) | https://ritual2.hyperplane.dev | ✅ | GCP |
-| [Whitecap POC](whitecap-poc-cluster-has-been-taken-down/README.md) | whitecap.hyperplane.dev *(cluster taken down)* | — | Hybrid On-Prem + AWS |
-| [Whitecap PROD](whitecap-prod/README.md) | shakudo.wcap.ca | ✅ | Hybrid On-Prem + AWS |
+| Customer | Environment URL | Accessible | Infrastructure | 1Password Vault |
+|---|---|:---:|---|---|
+| [Annexus](annexus/README.md) | https://ai.annexus.cc | ✅ | AKS | [Admin](annexus/OnePassVault.md) |
+| [Aristeia](aristeia/README.md) | http://shakudo.aristeiacapital.com | ❌ | AWS | [Admin · Maintainer](aristeia/OnePassVault.md) |
+| [Avenue Capital](avenue-capital/README.md) | avenue-ai.avenue.corp *(churned)* | — | On-Prem VM | [Admin · Maintainer](avenue-capital/OnePassVault.md) |
+| [BWX prod](bwx-prod/README.md) | https://shakudo.bwxt.net | ❌ | On-Prem VM | ⚠️ No vault |
+| [Campbell](campbell/README.md) | https://shakudo-1.campbell.com | ✅ | On-Prem VM | [Maintainer](campbell/OnePassVault.md) |
+| [CentralReach Dev](centralreach-dev/README.md) | https://shakudo-dev-centralreach.hyperplane.dev | ✅ | AWS | [Admin · Maintainer · External](centralreach-dev/OnePassVault.md) |
+| [CentralReach Prod](centralreach-prod/README.md) | *(Todd manages — screenshare only)* | ❌ | AWS | [Admin · Maintainer · External](centralreach-prod/OnePassVault.md) |
+| [CloudHQ](cloudhq/README.md) | https://shakudo1.cloudhq.com | ✅ | On-Prem | ⚠️ No vault |
+| [Dynex](dynex/README.md) | https://dynexcapital.canopyhub.io | ❌ | Azure VMs | [Admin](dynex/OnePassVault.md) |
+| [EJ Gallo](ej-gallo/README.md) | shakudodev.ejgallo.com | ❌ | — | [Admin](ej-gallo/OnePassVault.md) |
+| [Ellis Don](ellis-don/README.md) | *(no active environment — deal not closed)* | — | — | ⚠️ No vault |
+| [En-powered](en-powered/README.md) | https://enpowered.hyperplane.dev | ✅ | Oracle Cloud | [Admin · Maintainer](en-powered/OnePassVault.md) |
+| [Flexivan](flexivan/README.md) | https://flexivan.hyperplane.dev | ✅ | AWS | [Admin](flexivan/OnePassVault.md) |
+| [Hitachi Demo](hitachi-demo/README.md) | hitachi.canopyhub.io | ✅ | Latitude | ⚠️ No vault |
+| [Hitachi Prod](hitachi-prod/README.md) | *(customer-managed)* | ❌ | AWS | ⚠️ No vault |
+| [Huntington Cyber non-Prod](huntington-cyber-non-prod-cluster/README.md) | https://artifactscanning.dev.hban.us | ✅ | AWS EKS | [Admin · External](huntington-cyber-non-prod-cluster/OnePassVault.md) |
+| [Huntington Cyber Prod](huntington-cyber-prod-cluster/README.md) | https://artifactscanning.hban.us | ✅ | AWS EKS | [Admin · External](huntington-cyber-prod-cluster/OnePassVault.md) |
+| [Huntington MLOps non-Prod](huntington-mlops-non-prod-cluster/README.md) | https://sigma.dev.hban.us | ✅ | AWS EKS | [Admin · External](huntington-mlops-non-prod-cluster/OnePassVault.md) |
+| [Huntington MLOps Prod](huntington-mlops-prod-cluster/README.md) | https://sigma.prod.hban.us | ✅ | AWS EKS | [Admin · External](huntington-mlops-prod-cluster/OnePassVault.md) |
+| [ICI](ici/README.md) | *(onboarding in progress)* | — | — | ⚠️ No vault |
+| [JT Magen](jt-magen/README.md) | *(onboarding in progress)* | — | — | ⚠️ No vault |
+| [Kev Group](kev-group/README.md) | https://kevgroup.hyperplane.dev | ✅ | Oracle Cloud | [Admin · Maintainer](kev-group/OnePassVault.md) |
+| [Loblaw dev](loblaw-dev/README.md) | https://shakudo-lower.lblw.cloud | ❌ | GCP | [Maintainer](loblaw-dev/OnePassVault.md) |
+| [Loblaw prod](loblaw-prod/README.md) | https://shakudo.lblw.cloud | ❌ | GCP | [Maintainer](loblaw-prod/OnePassVault.md) |
+| [Martinrea](martinrea/README.md) | shakudo-management.martinrea.com | ✅ | On-Prem Bare Metal | ⚠️ No vault |
+| [MCP](mcp/README.md) | https://mcp.hyperplane.dev | ✅ | Latitude (Shakudo) | ⚠️ No vault |
+| [Osler, Hoskin and Harcourt LLP](osler/README.md) | *(scoping only — no environment yet)* | — | — | ⚠️ No vault |
+| [PiinPoint](piinpoint/README.md) | https://piinpoint.hyperplane.dev | ✅ | Azure | [Admin · Maintainer](piinpoint/OnePassVault.md) |
+| [QuadReal dev1](quadreal-dev1/README.md) | http://shakudoqrdev1.internal.quadreal.com | ✅ | Azure | [Admin · Maintainer · Shared](quadreal-dev1/OnePassVault.md) |
+| [QuadReal prod](quadreal-prod/README.md) | https://shakudoqrprd.internal.quadreal.com | ✅ | Azure | [Admin · Maintainer · Shared](quadreal-prod/OnePassVault.md) |
+| [QuadReal QA *(deprecated)*](quadreal-qa-deprecated/README.md) | http://shakudoqrqa.internal.quadreal.com | ✅ | Azure | [Admin · Maintainer · Shared](quadreal-qa-deprecated/OnePassVault.md) |
+| [Quantum Metric](quantum-metric/README.md) | https://qm-datascience.hyperplane.dev | ✅ | GCP | [Admin · Maintainer](quantum-metric/OnePassVault.md) |
+| [Reagan](reagan/README.md) | https://reagan.hyperplane.dev | ✅ | VM | [Admin](reagan/OnePassVault.md) |
+| [RiskThinking dev](riskthinking-dev/README.md) | https://riskthinking-dev.hyperplane.dev | ✅ | GCP | [Admin · Maintainer](riskthinking-dev/OnePassVault.md) |
+| [RiskThinking prod](riskthinking-prod/README.md) | https://riskthinking-prod.hyperplane.dev | ✅ | GCP | [Admin · Maintainer](riskthinking-prod/OnePassVault.md) |
+| [Ritual](ritual/README.md) | https://ritual2.hyperplane.dev | ✅ | GCP | [Admin · Maintainer](ritual/OnePassVault.md) |
+| [Whitecap POC](whitecap-poc-cluster-has-been-taken-down/README.md) | whitecap.hyperplane.dev *(cluster taken down)* | — | Hybrid On-Prem + AWS | [Admin · External](whitecap-poc-cluster-has-been-taken-down/OnePassVault.md) |
+| [Whitecap PROD](whitecap-prod/README.md) | shakudo.wcap.ca | ✅ | Hybrid On-Prem + AWS | [Admin · External](whitecap-prod/OnePassVault.md) |
+
+### Customers without a 1Password vault
+
+| Customer | Reason | Has hardcoded secrets? |
+|---|---|:---:|
+| BWX prod | Airgapped — customer-managed access | — |
+| CloudHQ | No vault created | ⚠️ Yes (SSH IPs) |
+| Ellis Don | No active environment | — |
+| Hitachi Demo | No vault created | — |
+| Hitachi Prod | Customer-managed | — |
+| ICI | Onboarding in progress | — |
+| JT Magen | Onboarding in progress | — |
+| Martinrea | CyberArk access only | — |
+| MCP | No vault created | ⚠️ Yes (SSH host + port) |
+| Osler | Scoping only | — |
 
 ---
 
