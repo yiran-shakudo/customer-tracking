@@ -49,29 +49,29 @@ Each customer `README.md` contains the following sections:
 | [Annexus](annexus/README.md) | https://ai.annexus.cc | ✅ | AKS | [Admin](annexus/OnePassVault.md) |
 | [Aristeia](aristeia/README.md) | http://shakudo.aristeiacapital.com | ❌ | AWS | [Admin · Maintainer](aristeia/OnePassVault.md) |
 | [Avenue Capital](avenue-capital/README.md) | avenue-ai.avenue.corp *(churned)* | — | On-Prem VM | [Admin · Maintainer](avenue-capital/OnePassVault.md) |
-| [BWX prod](bwx-prod/README.md) | https://shakudo.bwxt.net | ❌ | On-Prem VM | ⚠️ No vault |
+| [BWX prod](bwx-prod/README.md) | https://shakudo.bwxt.net | ❌ | On-Prem VM | [Admin](bwx-prod/OnePassVault.md) |
 | [Campbell](campbell/README.md) | https://shakudo-1.campbell.com | ✅ | On-Prem VM | [Maintainer](campbell/OnePassVault.md) |
 | [CentralReach Dev](centralreach-dev/README.md) | https://shakudo-dev-centralreach.hyperplane.dev | ✅ | AWS | [Admin · Maintainer · External](centralreach-dev/OnePassVault.md) |
 | [CentralReach Prod](centralreach-prod/README.md) | *(Todd manages — screenshare only)* | ❌ | AWS | [Admin · Maintainer · External](centralreach-prod/OnePassVault.md) |
-| [CloudHQ](cloudhq/README.md) | https://shakudo1.cloudhq.com | ✅ | On-Prem | ⚠️ No vault |
+| [CloudHQ](cloudhq/README.md) | https://shakudo1.cloudhq.com | ✅ | On-Prem | [Admin](cloudhq/OnePassVault.md) |
 | [Dynex](dynex/README.md) | https://dynexcapital.canopyhub.io | ❌ | Azure VMs | [Admin](dynex/OnePassVault.md) |
 | [EJ Gallo](ej-gallo/README.md) | shakudodev.ejgallo.com | ❌ | — | [Admin](ej-gallo/OnePassVault.md) |
 | [Ellis Don](ellis-don/README.md) | *(no active environment — deal not closed)* | — | — | ⚠️ No vault |
 | [En-powered](en-powered/README.md) | https://enpowered.hyperplane.dev | ✅ | Oracle Cloud | [Admin · Maintainer](en-powered/OnePassVault.md) |
 | [Flexivan](flexivan/README.md) | https://flexivan.hyperplane.dev | ✅ | AWS | [Admin](flexivan/OnePassVault.md) |
-| [Hitachi Demo](hitachi-demo/README.md) | hitachi.canopyhub.io | ✅ | Latitude | ⚠️ No vault |
-| [Hitachi Prod](hitachi-prod/README.md) | *(customer-managed)* | ❌ | AWS | ⚠️ No vault |
+| [Hitachi Demo](hitachi-demo/README.md) | hitachi.canopyhub.io | ✅ | Latitude | [Admin](hitachi-demo/OnePassVault.md) |
+| [Hitachi Prod](hitachi-prod/README.md) | *(customer-managed)* | ❌ | AWS | [Admin](hitachi-prod/OnePassVault.md) |
 | [Huntington Cyber non-Prod](huntington-cyber-non-prod-cluster/README.md) | https://artifactscanning.dev.hban.us | ✅ | AWS EKS | [Admin · External](huntington-cyber-non-prod-cluster/OnePassVault.md) |
 | [Huntington Cyber Prod](huntington-cyber-prod-cluster/README.md) | https://artifactscanning.hban.us | ✅ | AWS EKS | [Admin · External](huntington-cyber-prod-cluster/OnePassVault.md) |
 | [Huntington MLOps non-Prod](huntington-mlops-non-prod-cluster/README.md) | https://sigma.dev.hban.us | ✅ | AWS EKS | [Admin · External](huntington-mlops-non-prod-cluster/OnePassVault.md) |
 | [Huntington MLOps Prod](huntington-mlops-prod-cluster/README.md) | https://sigma.prod.hban.us | ✅ | AWS EKS | [Admin · External](huntington-mlops-prod-cluster/OnePassVault.md) |
-| [ICI](ici/README.md) | *(onboarding in progress)* | — | — | ⚠️ No vault |
-| [JT Magen](jt-magen/README.md) | *(onboarding in progress)* | — | — | ⚠️ No vault |
+| [ICI](ici/README.md) | *(onboarding in progress)* | — | — | [Admin](ici/OnePassVault.md) |
+| [JT Magen](jt-magen/README.md) | *(onboarding in progress)* | — | — | [Admin](jt-magen/OnePassVault.md) |
 | [Kev Group](kev-group/README.md) | https://kevgroup.hyperplane.dev | ✅ | Oracle Cloud | [Admin · Maintainer](kev-group/OnePassVault.md) |
 | [Loblaw dev](loblaw-dev/README.md) | https://shakudo-lower.lblw.cloud | ❌ | GCP | [Maintainer](loblaw-dev/OnePassVault.md) |
 | [Loblaw prod](loblaw-prod/README.md) | https://shakudo.lblw.cloud | ❌ | GCP | [Maintainer](loblaw-prod/OnePassVault.md) |
-| [Martinrea](martinrea/README.md) | shakudo-management.martinrea.com | ✅ | On-Prem Bare Metal | ⚠️ No vault |
-| [MCP](mcp/README.md) | https://mcp.hyperplane.dev | ✅ | Latitude (Shakudo) | ⚠️ No vault |
+| [Martinrea](martinrea/README.md) | shakudo-management.martinrea.com | ✅ | On-Prem Bare Metal | [Admin](martinrea/OnePassVault.md) |
+| [MCP](mcp/README.md) | https://mcp.hyperplane.dev | ✅ | Latitude (Shakudo) | [Admin](mcp/OnePassVault.md) |
 | [Osler, Hoskin and Harcourt LLP](osler/README.md) | *(scoping only — no environment yet)* | — | — | ⚠️ No vault |
 | [PiinPoint](piinpoint/README.md) | https://piinpoint.hyperplane.dev | ✅ | Azure | [Admin · Maintainer](piinpoint/OnePassVault.md) |
 | [QuadReal dev1](quadreal-dev1/README.md) | http://shakudoqrdev1.internal.quadreal.com | ✅ | Azure | [Admin · Maintainer · Shared](quadreal-dev1/OnePassVault.md) |
@@ -87,18 +87,10 @@ Each customer `README.md` contains the following sections:
 
 ### Customers without a 1Password vault
 
-| Customer | Reason | Has hardcoded secrets? |
-|---|---|:---:|
-| BWX prod | Airgapped — customer-managed access | — |
-| CloudHQ | No vault created | ⚠️ Yes (SSH IPs) |
-| Ellis Don | No active environment | — |
-| Hitachi Demo | No vault created | — |
-| Hitachi Prod | Customer-managed | — |
-| ICI | Onboarding in progress | — |
-| JT Magen | Onboarding in progress | — |
-| Martinrea | CyberArk access only | — |
-| MCP | No vault created | ⚠️ Yes (SSH host + port) |
-| Osler | Scoping only | — |
+| Customer | Reason |
+|---|---|
+| Ellis Don | No active environment — deal not closed |
+| Osler | Scoping only — no environment yet |
 
 ---
 
@@ -109,5 +101,5 @@ Each customer `README.md` contains the following sections:
 | Reagan | TeamViewer connection ID + password | ✅ Migrated | [Reagan TeamViewer Access](https://shakudo.1password.com/app#/vaults/o6jsizs4a3utxuy7sr2ce6odq4/items/t4wokj7y23p2bla5xks4kpzxki) |
 | Reagan | Windows laptop password | ✅ Migrated | [Reagan Windows Laptop](https://shakudo.1password.com/app#/vaults/o6jsizs4a3utxuy7sr2ce6odq4/items/q2tmlxmsgyiibgxptwprqp5rku) |
 | Campbell | Master node internal IP | ✅ Migrated | [Campbell Master Node](https://shakudo.1password.com/app#/vaults/sj5sdxgz7gepoxuaa33zpxobam/items/id4r32oki6fznbdruciwvvixve) |
-| CloudHQ | SSH hosts / IPs (4 nodes) | ⚠️ No vault — pending | — |
-| MCP | SSH host + port | ⚠️ No vault — pending | — |
+| CloudHQ | SSH hosts / IPs (4 nodes) | ✅ Migrated | [CloudHQ SSH Nodes (Old Cluster)](https://shakudo.1password.com/app#/vaults/qb6evallmv3v5v3yev67nnqcxm/items/jfl7vwk6c7wmlh2ckqdt6xqa7m) · [New Cluster](https://shakudo.1password.com/app#/vaults/qb6evallmv3v5v3yev67nnqcxm/items/c4buwzjipdv6wvrl2wgl2jn54e) |
+| MCP | SSH host + port | ✅ Migrated | [MCP SSH Access](https://shakudo.1password.com/app#/vaults/zwgd3omhtwxsdakm7cd64iqwpa/items/or4ztyacvacsjs76mdey2arv4i) |
