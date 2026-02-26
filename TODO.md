@@ -132,3 +132,8 @@ These customers have 1Password vaults but no folder in this repo. Confirm with t
 | Campbell secrets migrated | Master Node IP → `[Client maintainer] Campbell` |
 | MCP secrets migrated | SSH host + port → `[Client admin] MCP` |
 | CloudHQ secrets migrated | 4 SSH nodes (old + new cluster) → `[Client admin] CloudHQ` |
+| `reagan/README.md` redacted | Plaintext credentials replaced with `op://` references + links |
+| `campbell/README.md` redacted | Plaintext IP replaced with `op://` reference + link |
+| `mcp/README.md` redacted | Plaintext SSH host/port replaced with `op://` references + links |
+| `cloudhq/README.md` redacted | Plaintext SSH IPs replaced with `op://` references + links |
+| `customers.csv` redacted | All 9 plaintext secrets replaced with `op://` references inline |

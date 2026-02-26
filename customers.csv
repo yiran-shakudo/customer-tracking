@@ -9,7 +9,7 @@ BWX prod,https://shakudo.bwxt.net,no,,contact customer for access, get on call w
 Campbell,https://shakudo-1.campbell.com,yes,,Only one person can access the VM at a time. Joowon, Yiran, have access. There is a dedicated URL, go to the URL.  https://www.notion.so/shakudo/Campbell-206d36b5509080159e9bea6007e02b81?source=copy_link,connect to Shakudo-netgear wifi
 open a browser and go to : https://securelink.campbell.com/rss-servlet/
 log in with credentials 
-once logged in, open MobaXTerm and connect to master node ip : 10.10.215.29
+once logged in, open MobaXTerm and connect to master node ip : [1Password: op://[Client maintainer] Campbell/Campbell Master Node/hostname]
 enter user/password to access the master node
 
 instructions and credentials in 1password:
@@ -27,13 +27,13 @@ new environment being deployed.
 New Env: 
 
 https://shakudo2.cloudhq.com,yes,,Old cluster: Connect to SHAKUDO-NETGEAR; this only works on the office network. 
-ssh shakudo@52.180.153.118
-ssh shakudo@52.165.89.75
+ssh shakudo@[1Password: op://[Client admin] CloudHQ/CloudHQ SSH Nodes (Old Cluster)/node1]
+ssh shakudo@[1Password: op://[Client admin] CloudHQ/CloudHQ SSH Nodes (Old Cluster)/node2]
 
 New cluster: Connect to SHAKUDO-NETGEAR; this only works on the office network. 
 
-ssh shakudo@161.129.62.4
-ssh shakudo@161.129.62.3
+ssh shakudo@[1Password: op://[Client admin] CloudHQ/CloudHQ SSH Nodes (New Cluster)/node1]
+ssh shakudo@[1Password: op://[Client admin] CloudHQ/CloudHQ SSH Nodes (New Cluster)/node2]
 ,To access the dashboard: https://github.com/devsentient/task-tracking/issues/3096#issuecomment-2848141033,On Prem (self hosted),,,Airbyte, Appsmith, Appsmith Sandbox, Dremio, Longhorn, Minio, N8N, N8N Sandbox, Neo4J, Nessie, Open Webui, Qdrant, Supabase, Tooljet, WrenAI,OpenWebUI, CheckRequestsProd
 
 
@@ -66,7 +66,7 @@ MCP,https://mcp.hyperplane.dev/,yes,,no kubeconfig, just ssh. Yiran has access t
 2. give yiran the public key, it will have the .pub extention
 3. can now ssh without password (ask yiran for the ip and username)
 4. find the kubeconfig and scp it onto your computer
-ssh command: ssh ubuntu@186.233.184.151 -p 2222,https://start.1password.com/open/i?a=C4MX52U47RH7JBO6VGGXN55SFE&v=oirywnqgvozmeo4ysld2n3wsim&i=sxdbiijvvf3i5y46l7eqvpzvxi&h=shakudo.1password.com,Shakudo managed on Latitude,,v3.48.0,GraphQL, Grafana, Alertmanager, Qdrant, Langfuse V3, n8n, LiteLLM, Open Web UI, Open Web UI 1,  Neo4j, Minio
+ssh command: ssh [1Password: op://[Client admin] MCP/MCP SSH Access/username]@[1Password: op://[Client admin] MCP/MCP SSH Access/hostname] -p [1Password: op://[Client admin] MCP/MCP SSH Access/port],https://start.1password.com/open/i?a=C4MX52U47RH7JBO6VGGXN55SFE&v=oirywnqgvozmeo4ysld2n3wsim&i=sxdbiijvvf3i5y46l7eqvpzvxi&h=shakudo.1password.com,Shakudo managed on Latitude,,v3.48.0,GraphQL, Grafana, Alertmanager, Qdrant, Langfuse V3, n8n, LiteLLM, Open Web UI, Open Web UI 1,  Neo4j, Minio
 
 
 ,Dec 10, 2025,,,,yijie, shabbir,,d,No back up,,,
@@ -91,13 +91,13 @@ For deployment access, connect to temporary-shakudo-installer-vm-prd via Bastion
 QuadReal QA (deprecated),http://shakudoqrqa.internal.quadreal.com,yes,,,,Azure,,,,,,,,,,,No back up,,,
 Quantum Metric,https://qm-datascience.hyperplane.dev/,yes,,,Login via Onepass: https://start.1password.com/open/i?a=C4MX52U47RH7JBO6VGGXN55SFE&v=pqi5mkcaeawsyldluc4ozvuymy&i=doc37dhfswkcilc536bogwpvfa&h=shakudo.1password.com,GCP,,,,,,,their dashboard is down but the main user has left the company -- put this on ice for now,Christine,,,No back up,,,
 Reagan,https://reagan.hyperplane.dev,yes,,1. A user needs to download TeamViewer.
-2. Connect to 846 602 446
-3. Permanent Pass: j9uHWKfmgAjz
+2. Connect to [1Password: op://[Client admin] Reagan/Reagan TeamViewer Access/username]
+3. Permanent Pass: [1Password: op://[Client admin] Reagan/Reagan TeamViewer Access/password]
 Their machine is offline sometimes. In such cases, please ask CS to reach out to the client (Chris) for assistance,1. A user needs to download TeamViewer.
-2. Connect to 846 602 446
-3. Permanent Pass: j9uHWKfmgAjz
+2. Connect to [1Password: op://[Client admin] Reagan/Reagan TeamViewer Access/username]
+3. Permanent Pass: [1Password: op://[Client admin] Reagan/Reagan TeamViewer Access/password]
 Their machine is offline sometimes. In such cases, please ask Sid or Jason to reach out to the client for assistance
-Window password inside their laptop: shakudo ,VM,,v3.34.2,GraphQL, Grafana, Alertmanager, Open Webui, agent-flow-app, Litellm, Ollama (CPU), Ollama (GPU), Open WebUI, Dify, Appsmith, Supabase, Qdrant, MinIO, Airbyte,Dec 10, 2025,,,,Joowon, Yijie,,d,No back up,,,
+Window password inside their laptop: [1Password: op://[Client admin] Reagan/Reagan Windows Laptop/password] ,VM,,v3.34.2,GraphQL, Grafana, Alertmanager, Open Webui, agent-flow-app, Litellm, Ollama (CPU), Ollama (GPU), Open WebUI, Dify, Appsmith, Supabase, Qdrant, MinIO, Airbyte,Dec 10, 2025,,,,Joowon, Yijie,,d,No back up,,,
 RiskThinking dev,https://riskthinking-dev.hyperplane.dev,yes,,,Login via Onepass: https://start.1password.com/open/i?a=C4MX52U47RH7JBO6VGGXN55SFE&v=nxwamkpxcaj6mstxz7nyvdalym&i=rwdcecdbffd2pii7eykywri65a&h=shakudo.1password.com,GCP,,v3.41.0-33fbf7
 Feb 2025,harbor, Satellite clusters,,,,low-priority environment for now,Christine,,,No back up,,,
 RiskThinking prod,https://riskthinking-prod.hyperplane.dev,yes,,,Login via Onepass: https://start.1password.com/open/i?a=C4MX52U47RH7JBO6VGGXN55SFE&v=lyg6tgxqh533cztaylftuivwou&i=qrgngdkj4765bpzl2mgx6pgjdy&h=shakudo.1password.com,GCP,,,,,Environment wasn't accessible in dec check,,low-priority environment for now,Christine,,,No back up,,,
